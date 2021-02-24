@@ -23,6 +23,14 @@
 
             }
 
+        .holy {
+
+            display: flex;
+            flex-direction: column;
+            
+
+        }
+
 
         .maincontain {
             display: grid;
@@ -49,10 +57,13 @@
         
         }
 
-        .navbar {
+        .nav {
             display: flex;
-
+            flex-direction: row;
+            padding: 6px;
+            
         }
+
 
         .news {
             display: flex;
@@ -76,41 +87,82 @@
 
             }
 
+        #about {
+            padding: 5px;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            margin: 0px 5px 0px 15px;
+            align-self: center;
+
+        }
+
+        #store {
+            padding: 5px;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            align-self: center;
+            margin: 0px 5px;
+        }
+        #gmail {
+            padding-left: 15px;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            justify-self: flex-end;
+            vertical-align: middle;
+            align-self: center;
+        }
+        #images {
+            padding-left: 15px;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            justify-self: flex-end;
+            vertical-align: middle;
+            align-self: center;
+        }
+
 
 
         </style>
         
         
     </head>
-    <nav>
-        <div class="navbar">
-            
-            <div>
-
-
-            </div> 
-
-            
-
-    </nav>
     
 
     <body>
 
-        <div class="maincontain">
 
-            <div class="googleimage">
-                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" 
-            id="mainlogo" alt ="Google Logo">
+
+        <div class = "holy">
+
+            <div class = "nav">
+
+                <a id = "about" href="https://about.google/">About</a>
+                <a id = "store" href="https://store.google.com/" >Store</a>
+                <div style="width: 100px; flex: auto;"> </div>
+                <a id = "gmail" href="https://mail.google.com/" >Gmail</a>
+                <a id = "images" href="https://images.google.com/" >Images</a>
+
+
 
             </div>
-            <div class="search">Search bar here!</div>
-            <div class="buttons">Search</div>
-            <div class="buttons">I'm Feeling Lucky</div>
-            <div class="news">The one line of news!</div>
-            
 
-            
+
+
+
+            <div class="maincontain">
+
+                <div class="googleimage">
+                    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" 
+                id="mainlogo" alt ="Google Logo">
+
+                </div>
+                <div class="search">Search bar here!</div>
+                <div class="buttons">Search</div>
+                <div class="buttons">I'm Feeling Lucky</div>
+                <div class="news">The one line of news!</div>
+                
+
+            </div>
 
         </div>
 
