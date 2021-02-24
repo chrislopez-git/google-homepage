@@ -35,8 +35,10 @@
 
         .buttons {
             justify-self: center;
-            margin: center;
-            padding: 20px;
+            text-align: center;
+            line-height: 27px;
+            margin: 11px 4px;
+            padding: 0px 16px;
         }
 
 
@@ -118,11 +120,13 @@
             height: auto;
             display: flex;
             justify-content: center; 
+            font-size: 16px;
             grid-column-start: 1;
             grid-column-end: 3;
             grid-row-start: 2;
             grid-row-end: 3;
-            padding: 20px;
+            height: 34px;
+            
 
             }
 
@@ -207,15 +211,15 @@
                 id="mainlogo" alt ="Google Logo">
 
                 </div>
-                <div class="search">Search bar here!</div>
-                <div class="buttons">Search</div>
-                <div class="buttons">I'm Feeling Lucky</div>
-                <div class="news">The one line of news!</div>
+                <input class="search" type="text">
+                <input class="buttons" value="Google Search" type="submit">
+                <input class="buttons" value="I'm Feeling Lucky" type="submit">
+                <div class="news">A basic google page has been created!</div>
                 
 
             </div>
             
-            <div style="flex-grow: 1; justify-self: flex-end; "> empty space!</div>
+            <div style="flex-grow: 1; justify-self: flex-end; "></div>
 
             
 
@@ -227,7 +231,7 @@
 
             <div class = "bottom">
     
-                <a id = "about" href="https://about.google/">About</a>
+                <a id = "about" href="https://about.google/"  >About</a>
                 <a id = "store" href="https://store.google.com/" >Store</a>
                 <div style="width: 100px; flex: auto;"></div>
                 <a id = "gmail" href="https://mail.google.com/" >Gmail</a>
